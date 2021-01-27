@@ -6,3 +6,4 @@
 0. Export key `gpg --armor --export $KEY_ID`
 0. Add it to GitHub https://github.com/settings/gpg/new
 0. Configure git `git config --global user.signingkey $KEY_ID`
+0. Create a signed off commit `git commit -S -m "Initial commit"`
