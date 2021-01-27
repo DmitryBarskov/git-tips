@@ -7,3 +7,5 @@
 0. Add it to GitHub https://github.com/settings/gpg/new
 0. Configure git `git config --global user.signingkey $KEY_ID`
 0. Create a signed off commit `git commit -S -m "Initial commit"`
+
+I had some issues and this Stackoverflow answer helped me https://stackoverflow.com/a/47087248/14209416.
