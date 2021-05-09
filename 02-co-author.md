@@ -15,5 +15,12 @@ This will result in
 I have a file `mates` that have variables with names with people I work with
 
 ```bash
-export CO_ARTHUR_ZAHAROV='Co-authored-by: Arthur Zaharov <arthur.zaharov@flatstack.com>'
+export ARTHUR_ZAHAROV='Co-authored-by: Arthur Zaharov <arthur.zaharov@flatstack.com>'
+```
+
+So I commit using
+```bash
+git commit -m "Address changes from code review
+
+$ARTHUR_ZAHAROV"
 ```
