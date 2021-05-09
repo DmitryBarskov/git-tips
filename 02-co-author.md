@@ -17,4 +17,3 @@ I have a file `mates` that have variables with names with people I work with
 ```bash
 export CO_ARTHUR_ZAHAROV='Co-authored-by: Arthur Zaharov <arthur.zaharov@flatstack.com>'
 ```
-
