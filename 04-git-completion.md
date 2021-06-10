@@ -21,4 +21,3 @@ autoload -Uz vcs_info' >> .zshrc
 ```
 
 It will suggest all git commands, branch names.
-
