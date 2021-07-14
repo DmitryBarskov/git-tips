@@ -31,6 +31,16 @@ $ fuck
 git branch --set-upstream-to=origin/br-1 br-1 && git pull [enter/↑/↓/ctrl+c]
 Branch 'br-1' set up to track remote branch 'br-1' from 'origin'.
 Already up to date.
-$ g pull
+$ git pull
 Already up to date.
+```
+
+4. Set upstream + config
+
+The config
+```gitconfig
+[push]
+  default = current
+[alias]
+  pu = push -u
 ```
