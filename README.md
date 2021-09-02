@@ -14,3 +14,4 @@
 12. [Pull current branch/push to current branch](12-pull-or-push-to-current.md)
 13. [gitignore](13-excludes-file.md)
 14. [git-log --graph](14-log-graph.md)
+15. [Neat diff](15-diff-common-commit.md)
