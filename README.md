@@ -12,3 +12,4 @@
 10. [SSH Authentication](10-ssh-auth.md)
 11. [Hooks](11-hooks.md)
 12. [Pull current branch/push to current branch](12-pull-or-push-to-current.md)
+13. [gitignore](13-excludes-file.md)
