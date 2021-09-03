@@ -15,3 +15,5 @@
 13. [gitignore](13-excludes-file.md)
 14. [git-log --graph](14-log-graph.md)
 15. [Neat diff](15-diff-common-commit.md)
+
+Also see my [git config file](gitconfig)

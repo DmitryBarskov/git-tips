@@ -1,0 +1,64 @@
+[alias]
+  a = add
+  ad = add
+  br = branch
+  ci = commit -S
+  co = checkout
+  oc = checkout
+  cob = checkout -b
+  com = checkout master
+  codestyle = commit -S -m 'Address code style offences'
+  cp = cherry-pick
+  dc = diff --cached
+  df = diff
+  f = fetch --all --prune
+  gr = log --graph --pretty=format:\"%Cred%h %Cblue%ar%Creset %Cgreen%an%Creset %s %Cred%d\"
+  lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+  p = pull
+  pu = push -u
+  s = status --short
+  st = status
+  unstage = restore --staged
+
+[fetch]
+  prune = true
+
+[user]
+  email = dmitry.barskov@flatstack.com
+  name = Dmitry Barskov
+  signingkey = 9BFE4FB69E52C4E5
+
+[color]
+  ui = true
+  branch = auto
+  diff = auto
+  pager = true
+  status = auto
+  interactive = auto
+  showbranch = auto
+
+[push]
+  default = current
+
+[pull]
+  rebase = false
+
+[commit]
+  gpgsign = true
+
+[gpg]
+  program = gpg
+
+[core]
+  excludesFile = /Users/dmitrybarskov/.config/git/ignore
+
+[rerere]
+  enabled = true
+[init]
+  defaultBranch = master
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
