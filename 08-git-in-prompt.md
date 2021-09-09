@@ -1,6 +1,8 @@
 # Show current branch in prompt
 
-1. Check out this repo [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt).
+The first option:
+
+Check out this repo [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt).
 
 ```bash
 brew install bash-git-prompt
@@ -13,7 +15,9 @@ brew install bash-git-prompt
 fi
 ```
 
-2. My PS1
+## OR
+
+My PS1:
 ```bash
 wget 'https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh'
 
