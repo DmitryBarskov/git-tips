@@ -8,7 +8,7 @@ Check out this repo [bash-git-prompt](https://github.com/magicmonty/bash-git-pro
 brew install bash-git-prompt
 
 # Add next lines to your config file
-[ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
   __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
   GIT_PROMPT_ONLY_IN_REPO=1
   source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
@@ -18,6 +18,7 @@ fi
 ## OR
 
 My PS1:
+
 ```bash
 wget 'https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh'
 
