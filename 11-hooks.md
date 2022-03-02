@@ -3,7 +3,8 @@
 ## WARNING: don't use server side hooks
 
 Try not to use server-side git hooks, they usually annoy devs. But client-side
-hooks are totally fine.
+hooks are totally fine, because
+[you can easily disable it](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---no-verify).
 
 ### quickhook
 
