@@ -11,7 +11,7 @@ Select file location, passphrase (I prefer empty)
 
 2. Copy the key
 ```bash
-cat "$HOME/.ssh/id_rsa" | pbcopy
+cat "$HOME/.ssh/id_rsa.pub" | pbcopy
 ```
 
 3. Visit [GitHub Settings](https://github.com/settings/ssh/new) and add the key
