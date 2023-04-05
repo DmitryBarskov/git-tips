@@ -9,3 +9,7 @@
 0. Create a signed off commit `git commit -S -m "Initial commit"`
 
 I had some issues and this Stackoverflow answer helped me https://stackoverflow.com/a/47087248/14209416.
+
+## Renew an expired key
+
+Here is useful link [Renew expired GPG key (GitHub Gist)](https://gist.github.com/krisleech/760213ed287ea9da85521c7c9aac1df0).
